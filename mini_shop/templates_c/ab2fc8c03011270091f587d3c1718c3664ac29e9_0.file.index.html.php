@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 05:40:19
+/* Smarty version 3.1.29, created on 2020-11-10 06:49:26
   from "C:\UniServerZ\www\mini_shop\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa27c3b5d347_33620275',
+  'unifunc' => 'content_5faa37f65e7f58_59837918',
   'file_dependency' => 
   array (
     'ab2fc8c03011270091f587d3c1718c3664ac29e9' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\mini_shop\\templates\\index.html',
-      1 => 1604986527,
+      1 => 1604990948,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5faa27c3b5d347_33620275 ($_smarty_tpl) {
+function content_5faa37f65e7f58_59837918 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -57,6 +57,16 @@ function content_5faa27c3b5d347_33620275 ($_smarty_tpl) {
     <?php echo '<script'; ?>
  src="bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
 >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
   </head>
   <body>
     <div class="container">
@@ -70,7 +80,7 @@ function content_5faa27c3b5d347_33620275 ($_smarty_tpl) {
       <div id="shop_main" class="row">
         <div class="col-md-9 col-sm-8">
           <?php if (isset($_smarty_tpl->tpl_vars['msg']->value)) {?>
-            <div class="alert alert-danger"><?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
+            <div class="btn btn-outline-danger"><?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
 </div>
           <?php }?>
           <?php if ($_smarty_tpl->tpl_vars['op']->value == "goods_form") {?>
